@@ -90,7 +90,9 @@ No build tools are required for local preview (static HTML/CSS/JS project).
 
 ## Screenshots / Preview
 
+## Homepage Desktop
 ![Homepage Desktop](./screenshots/homepage-desktop.png)
+## Services Mobile 
 ![Services Mobile](./screenshots/services-mobile.png)
 
 ## Sample Reusable Component Structure
