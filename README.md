@@ -14,6 +14,17 @@ This update introduces a shared UI system that standardizes colors, typography, 
 
 The redesign is applied through a centralized stylesheet, `theme.css`, loaded after each page-specific stylesheet so existing layouts remain intact while receiving a consistent visual upgrade.
 
+## Features and Improvements Made
+
+- Unified color palette using CSS variables (`:root`) for maintainability
+- Consistent typography hierarchy for headings, body text, links, and labels
+- Reusable component styling for buttons, cards, forms, and FAQ panels
+- Better visual rhythm with standardized spacing and border radius values
+- Improved hover/focus interactions for navigation and call-to-action elements
+- Enhanced readability with stronger contrast and cleaner text colors
+- Refined responsive behavior for key sections and mobile navigation
+- Fixed malformed homepage link markup for cleaner HTML output
+
 ## UI/UX Design Decisions
 
 ### 1) Color Palette (HEX)
@@ -61,14 +72,6 @@ Core improvements:
 - More consistent component spacing at small screen widths
 - Preserved usability for card-heavy sections and forms on narrow devices
 
-## File Changes
-
-- Added: `theme.css` (shared design system and overrides)
-- Updated: `homepage.html` (theme include + malformed anchor fix)
-- Updated: `services.html` (theme include)
-- Updated: `gallery.html` (theme include)
-- Updated: `contact.html` (theme include)
-- Updated: `scheduling.html` (theme include)
 
 ## Installation / Setup
 
@@ -87,12 +90,8 @@ No build tools are required for local preview (static HTML/CSS/JS project).
 
 ## Screenshots / Preview
 
-You can add screenshots in a folder like `screenshots/` and reference them here:
-
-```md
-![Homepage](screenshots/homepage-desktop.png)
-![Services Mobile](screenshots/services-mobile.png)
-```
+![Homepage Desktop](./screenshots/homepage-desktop.png)
+![Services Mobile](./screenshots/services-mobile.png)
 
 ## Sample Reusable Component Structure
 
@@ -127,4 +126,3 @@ You can add screenshots in a folder like `screenshots/` and reference them here:
 
 ---
 
-If you continue iterating, keep new styles inside `theme.css` first and only use page CSS for page-unique layout behavior. This keeps the UI system maintainable and consistent.
