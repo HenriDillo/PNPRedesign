@@ -14,17 +14,6 @@ This update introduces a shared UI system that standardizes colors, typography, 
 
 The redesign is applied through a centralized stylesheet, `theme.css`, loaded after each page-specific stylesheet so existing layouts remain intact while receiving a consistent visual upgrade.
 
-## Features and Improvements Made
-
-- Unified color palette using CSS variables (`:root`) for maintainability
-- Consistent typography hierarchy for headings, body text, links, and labels
-- Reusable component styling for buttons, cards, forms, and FAQ panels
-- Better visual rhythm with standardized spacing and border radius values
-- Improved hover/focus interactions for navigation and call-to-action elements
-- Enhanced readability with stronger contrast and cleaner text colors
-- Refined responsive behavior for key sections and mobile navigation
-- Fixed malformed homepage link markup for cleaner HTML output
-
 ## UI/UX Design Decisions
 
 ### 1) Color Palette (HEX)
